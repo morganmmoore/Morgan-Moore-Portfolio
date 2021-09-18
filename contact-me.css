@@ -1,0 +1,102 @@
+body {
+    background: url("./image-from-rawpixel-id-513972-jpeg.jpg");
+    font-family: "";
+    margin: 100px;
+}
+
+.content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.content-h2 {
+    color: lightseagreen;
+    height: 200px;
+    flex-basis: 25%;
+    text-align: right;
+    padding-left: 60px;
+    margin: auto;
+}
+
+#contact-info {
+    font-size: 100px;
+    margin-top: 150px;
+}
+
+#contactinfo {
+    float: right;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+.box-element {
+    margin: 50px 0;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-div {
+    flex-basis: 70%;
+    position: relative;
+}
+
+.content-h2 {
+    color: lightseagreen;
+    height: 200px;
+    flex-basis: 25%;
+    text-align: right;
+}
+
+#email, #number, #github, #linkedIn {
+    color:lightseagreen;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 15px;
+}
+#email a, #number a, #github a, #resume a, #linkedIn a {
+    color: lightseagreen;
+    text-decoration: underline dotted lightseagreen;
+}
+
+ul {
+    border: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: lightseagreen;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.buttons {
+    margin: auto;
+    padding-top: 10px;
+}
+
+.link-border {
+    border-color: #d4af37;
+    border-style: groove;
+    height: 1px;
+    width: 80%;
+    margin: auto;
+}
+
+.selectable:hover {
+    -moz-box-shadow: 0 0 10px #d4af37;
+    -webkit-box-shadow: 0 0 10px #d4af37;
+    box-shadow: 0px 0px 10px #d4af37;
+}
+
+@media screen and (min-width: 992px) {
+    
+}
