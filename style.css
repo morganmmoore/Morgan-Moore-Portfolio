@@ -17,6 +17,7 @@ body {
 
 .box-element1 {
     color: #b76E79;
+    font-size: 50px;
 }
 
 ul {
@@ -31,10 +32,6 @@ ul li {
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-}
-
-.box-element1 {
-    font-size: 50px;
 }
 
 .content-h2 {

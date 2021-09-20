@@ -1,0 +1,58 @@
+body {
+    background: url("");
+    margin: auto;
+    text-align: center;
+    font-family: "";
+    margin: auto;
+}
+
+.link-border {
+    border-color: #d4af37;
+    border-style: groove;
+    height: 1px;
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.content-h2 {
+    color: rebeccapurple;
+    height: 200px;
+    flex-basis: 25%;
+    text-align: right;
+    margin: auto;
+}
+
+.box-element {
+    margin: 50px 0;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    margin: auto;
+    padding-top: 10px;
+}
+
+ul {
+    border: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: rebeccapurple;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 40px;
+}
