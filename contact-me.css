@@ -80,7 +80,6 @@ a {
 
 .buttons {
     margin: auto;
-    padding-top: 10px;
 }
 
 .link-border {
@@ -91,10 +90,62 @@ a {
     margin: auto;
 }
 
-.selectable:hover {
-    -moz-box-shadow: 0 0 10px #d4af37;
-    -webkit-box-shadow: 0 0 10px #d4af37;
-    box-shadow: 0px 0px 10px #d4af37;
+
+li { text-align: center; }
+.link {
+   /* RESET */
+   text-decoration: none;
+   line-height: 1;
+   
+   position: relative;
+   z-index: 0;
+   display: inline-block;
+   padding: 5px 5px;
+   overflow: hidden;
+   color: lightseagreen;
+   vertical-align: bottom;
+   transition: color .3s ease-out;
+}
+
+.link::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   transform: translateY(calc(100% - 2px));
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+   transition: transform .25s ease-out;
+}
+
+.link:hover { 
+   color: #fff; 
+}
+.link:hover::before {
+   transform: translateY(0);
+   transition: transform .25s ease-out;
+}
+
+.buttons {
+   /* position: fixed; */
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 20px;
+   text-align: center;
+   font-size: 10px;
+   line-height: 20px;
+   color: white;
+   letter-spacing: 1px;
+   margin-left: 20px;
+}
+
+.buttons > a {
+   text-decoration: none;
+   color: #fff;
+   letter-spacing: 1px;
 }
 
 @media screen and (min-width: 992px) {

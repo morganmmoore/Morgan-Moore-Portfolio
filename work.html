@@ -7,52 +7,158 @@
     <link rel="stylesheet" href="./work.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./work.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3b17a001b1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="header">
-        <h2> My Work</h2>
+        <h2 id="work-header">My Work</h2>
     </div>
     <section>
         <div class="container box-element content">
-                <div class="col content-div row align-items-start" id="work-links">
-                    <div id="recent-work">
-                        <img src="https://user-images.githubusercontent.com/85320200/133329132-2ca7d3c3-9581-4dbb-84ab-39089f36f39f.png" alt="placeholder" class="selectable">
-                        <br /><a href="https://immortalized513.github.io/Project-1/">Click here to view FilmReal Engine</a>
+            <!-- <div class="col content-div row align-items-start" id="work-links">
+                <div id="row justify-content-between recent-work">
+                    <img src="https://user-images.githubusercontent.com/85320200/133329132-2ca7d3c3-9581-4dbb-84ab-39089f36f39f.png" alt="placeholder" class="selectable">
+                    <br /><a href="https://immortalized513.github.io/Project-1/">Click here to view FilmReal Engine</a>
+                </div>
+            </div> -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="6"></li>
+                </ol>
+                
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner active">
+                    <div class="carousel-item active">
+                        <img src="./Images/project2.JPG" class="d-block w-100" alt="Slide1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Project Picker</h5>
+                            <p>
+                                <a href="https://project-picker-project-2.herokuapp.com/">View deployed page</a><br />
+                                <a href="https://github.com/Risingphoenix86/Project-2">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://user-images.githubusercontent.com/85320200/130336919-6bc31d9a-4625-4d5d-8f93-ab32e2b0f69c.JPG" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coding Quiz</h5>
+                            <p>
+                                <a href="https://morganmmoore.github.io/coding-quiz/">View deployed page</a><br />
+                                <a href="https://github.com/morganmmoore/coding-quiz">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/techblog.JPG" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tech Blog</h5>
+                            <p>
+                                <a href="https://serene-headland-40327.herokuapp.com/">View deployed page</a><br />
+                                <a href="https://github.com/morganmmoore/Tech-Blog">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://user-images.githubusercontent.com/85320200/132435818-cacd2853-0de0-4dcd-9a66-dcd4b02a556b.JPG" class="d-block w-100" alt="Slide 4">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Weather Dashboard</h5>
+                            <p>
+                                <a href="https://morganmmoore.github.io/Weather-Dashboard/">View deployed page</a><br />
+                                <a href="https://github.com/morganmmoore/Weather-Dashboard">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/morganmmoore/Password-Generator/raw/main/pw%20gen.jpg" class="d-block w-100" alt="Slide 5">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Password Generator</h5>
+                            <p>
+                                <a href="https://morganmmoore.github.io/Password-Generator/">View deployed page</a><br />
+                                <a href="https://github.com/morganmmoore/Password-Generator">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://user-images.githubusercontent.com/85320200/131170809-2f7d91e3-a087-4c49-8cdb-74e0cd777289.JPG" class="d-block w-100" alt="Slide 6">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Work Day Scheduler</h5>
+                            <p>
+                                <a href="https://morganmmoore.github.io/Work-Day-Scheduler/">View deployed page</a><br />
+                                <a href="https://github.com/morganmmoore/Work-Day-Scheduler">View GitHub repository</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/ecommbackend.JPG" class="d-block w-100" alt="Slide 7">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>E-Commerce Back-End</h5>
+                            <p>
+                                <a href="https://github.com/morganmmoore/E-Commerce-Back-End">View GitHub repository</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col row align-items-center" id="other-work">
-                    <img src="https://user-images.githubusercontent.com/85320200/130336919-6bc31d9a-4625-4d5d-8f93-ab32e2b0f69c.JPG" alt="placeholder" class="selectable">
-                    
-                    <img src="https://user-images.githubusercontent.com/85320200/132435818-cacd2853-0de0-4dcd-9a66-dcd4b02a556b.JPG" alt="placeholder" class="selectable">
-                    <div>
-                    <a href="https://morganmmoore.github.io/coding-quiz/">View Coding Quiz</a><a href="https://morganmmoore.github.io/Weather-Dashboard/">View Weather Dashboard</a>
-                    </div>
-                    <img src="https://github.com/morganmmoore/Password-Generator/raw/main/pw%20gen.jpg" alt="placeholder" class="selectable">
-        
-                    <img src="https://user-images.githubusercontent.com/85320200/131170809-2f7d91e3-a087-4c49-8cdb-74e0cd777289.JPG" alt="placeholder" class="selectable">  
-                    <div>
-                        <a href="https://morganmmoore.github.io/Password-Generator/">View Password Generator</a><a href="https://morganmmoore.github.io/Work-Day-Scheduler/">View Day Scheduler</a>
-                    </div>
-                </div>
+            
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                </a>
+            </div>
         </div>
-            <div class="link-border"></div>
-            <div class="buttons"></div>
-        <div class="box-element">
-            <ul>
-                <li>
+        <div class="link-border"></div>
+        <section class="work-body">
+            <div class="box-element">
+                <ul>
                     <li>
-                        <a href="./index.html">Home &nbsp;&nbsp;</a>
-
-                        <a href="./work.html">Work &nbsp;&nbsp;</a>
-
-                        <a href="./contact-me.html">Contact Me &nbsp;&nbsp;</a>
-
-                        <a href="./resume.html">Resume &nbsp;&nbsp;</a>
+                        <li>
+                            <a href="./index.html">
+                                <span class="text">Home &nbsp;&nbsp;</span>
+                                <span class="line -right"></span>
+                                <span class="line -top"></span>
+                                <span class="line -left"></span>
+                                <span class="line -bottom"></span>
+                            </a>
+                            <a href="./work.html">
+                                <span class="text">Work &nbsp;&nbsp;</span>
+                                <span class="line -right"></span>
+                                <span class="line -top"></span>
+                                <span class="line -left"></span>
+                                <span class="line -bottom"></span>
+                            </a>
+                            <a href="./contact-me.html">
+                                <span class="text">Contact Me &nbsp;&nbsp;</span>
+                                <span class="line -right"></span>
+                                <span class="line -top"></span>
+                                <span class="line -left"></span>
+                                <span class="line -bottom"></span>
+                            </a>
+                            <a href="./resume.html">
+                                <span class="text">Resume &nbsp;&nbsp;</span>
+                                <span class="line -right"></span>
+                                <span class="line -top"></span>
+                                <span class="line -left"></span>
+                                <span class="line -bottom"></span>
+                            </a>
+                        </li>
                     </li>
-                </li>
-            </ul>
-        </div>
+                </ul>
+            </div>
+        </section>
     </section>
 </body>
+
+<script src="carousel.js"></script>
